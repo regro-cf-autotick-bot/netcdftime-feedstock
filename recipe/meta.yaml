@@ -1,14 +1,12 @@
-{% set name = "netcdftime" %}
-{% set version = "1.0.0a1" %}
-{% set sha256 = "76a4b93f8bd4627c09b56182a22dce59d6868e5b8ca85c04ad60ef6b71fcd020" %}
+{% set version = "1.0.0a2" %}
 
 package:
-  name: {{ name|lower }}
+  name: netcdftime
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/n/netcdftime/netcdftime-{{ version }}.tar.gz
+  sha256: b54233591dc94a0781fa7fb195addc2ac8e37a75ab6284c601e18ba5f1af351d
 
 build:
   number: 0
