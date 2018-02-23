@@ -1,7 +1,7 @@
 {% set version = "1.0.0a2" %}
 
 package:
-  name: {{ name|lower }}
+  name: netcdftime
   version: {{ version }}
 
 source:
