@@ -1,6 +1,6 @@
 {% set name = "netcdftime" %}
-{% set version = "1.0.0a1" %}
-{% set sha256 = "76a4b93f8bd4627c09b56182a22dce59d6868e5b8ca85c04ad60ef6b71fcd020" %}
+{% set version = "1.0.0a2" %}
+{% set sha256 = "296985c5180257a21e5d706b5745976429f7bfc3e7ecda91978c90049ce329c3" %}
 
 package:
   name: {{ name|lower }}
