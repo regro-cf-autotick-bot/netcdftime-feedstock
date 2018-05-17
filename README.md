@@ -1,9 +1,9 @@
-About netcdftime
-================
+About cftime
+============
 
-Home: https://github.com/Unidata/netcdftime
+Home: https://github.com/Unidata/cftime
 
-Package license: OSI Approved and MIT
+Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
@@ -15,34 +15,36 @@ Time-handling functionality from netcdf4-python
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/netcdftime-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/netcdftime-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/netcdftime-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/netcdftime-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/netcdftime-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/netcdftime-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/netcdftime-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/netcdftime-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/netcdftime-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/netcdftime-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/netcdftime-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/netcdftime-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/netcdftime/badges/version.svg)](https://anaconda.org/conda-forge/netcdftime)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/netcdftime/badges/downloads.svg)](https://anaconda.org/conda-forge/netcdftime)
 
-Installing netcdftime
-=====================
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cftime-green.svg)](https://anaconda.org/conda-forge/cftime) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cftime.svg)](https://anaconda.org/conda-forge/cftime) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cftime.svg)](https://anaconda.org/conda-forge/cftime) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cftime.svg)](https://anaconda.org/conda-forge/cftime) |
 
-Installing `netcdftime` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing cftime
+=================
+
+Installing `cftime` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `netcdftime` can be installed with:
+Once the `conda-forge` channel has been enabled, `cftime` can be installed with:
 
 ```
-conda install netcdftime
+conda install cftime
 ```
 
-It is possible to list all of the versions of `netcdftime` available on your platform with:
+It is possible to list all of the versions of `cftime` available on your platform with:
 
 ```
-conda search netcdftime --channel conda-forge
+conda search cftime --channel conda-forge
 ```
 
 
@@ -82,17 +84,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating netcdftime-feedstock
-=============================
+Updating cftime-feedstock
+=========================
 
-If you would like to improve the netcdftime recipe or build a new
+If you would like to improve the cftime recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/netcdftime-feedstock are
+Note that all branches in the conda-forge/cftime-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
